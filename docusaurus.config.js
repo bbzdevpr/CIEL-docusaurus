@@ -101,7 +101,7 @@ const config = {
           //{to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://bbzdevpr.github.io/CIEL-docusaurus',
-            label: 'GitHub',
+            label: 'GitHub bbz',
             position: 'right',
           },
         ],
