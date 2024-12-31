@@ -86,7 +86,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'CIEL documentation',
+        title: 'Home',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -94,9 +94,21 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'Cybersecuritebar',
             position: 'left',
-            label: 'Documentation',
+            label: 'Cybersécurité',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'Informatiquebar',
+            position: 'left',
+            label: 'Informatique et réseau',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'electroniquebar',
+            position: 'left',
+            label: 'Electronique',
           },
           //{to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -146,10 +158,6 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/facebook/docusaurus',
