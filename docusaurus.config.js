@@ -15,7 +15,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://github.com/bbzdevpr',
+  url: 'https://bbzdevpr.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/CIEL-docusaurus/',
@@ -25,10 +25,10 @@ const config = {
   organizationName: 'bbzdevpr', // Usually your GitHub org/user name.
   projectName: 'CIEL-docusaurus', // Usually your repo name.
   deploymentBranch:'gh-pages',
+  trailingSlash:false,
 
-
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks:'ignore' ,//'throw',
+  onBrokenMarkdownLinks:'ignore', // 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -37,6 +37,14 @@ const config = {
     defaultLocale: 'fr',
     locales: ['fr'],
   },
+  plugins: [
+    [
+      require.resolve("@cmfcmf/docusaurus-search-local"),
+      {
+        language: 'fr',
+      },
+    ],
+  ],
 
   presets: [
     [
@@ -78,7 +86,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'CIEL documentation',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -105,8 +113,16 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Cybersécurité',
+                to: '/docs/01 Cybersécurité',
+              },
+              {
+                label: 'Informatique et réseau',
+                to: '/docs/02 informatique et réseau',
+              },
+              {
+                label: 'Electronique',
+                to: '/docs/03 Electronique',
               },
             ],
           },
