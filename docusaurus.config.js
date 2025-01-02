@@ -126,15 +126,15 @@ const config = {
             items: [
               {
                 label: 'Cybersécurité',
-                to: '/docs/01 Cybersécurité/Cybersécurité',
+                to: '/docs/01 Cybersécurité/Intro Cybersécurité',
               },
               {
                 label: 'Informatique et réseau',
-                to: '/docs/02 informatique et réseau/Informatique et réseau',
+                to: '/docs/02 informatique et réseau/Intro Informatique et réseau',
               },
               {
                 label: 'Electronique',
-                to: '/docs/03 Electronique/Arduino',
+                to: '/docs/03 Electronique/Intro electronique',
               },
             ],
           },

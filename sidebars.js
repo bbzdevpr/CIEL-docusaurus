@@ -24,7 +24,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Cybersécurité',
-      items: ['01 Cybersécurité/Cybersécurité'],
+      items: ['01 Cybersécurité/Intro Cybersécurité'],
     },
   ],
 
@@ -32,14 +32,16 @@ const sidebars = {
     {
       type: 'category',
       label: 'Informatique et réseau',
-      items: ['02 informatique et réseau/Informatique et réseau'],
+      items: ['02 informatique et réseau/Intro Informatique et réseau'],
     },
   ],
   electroniquebar: [
     {
       type: 'category',
       label: 'Electronique',
-      items: ['03 Electronique/Arduino'],
+      items: ['03 Electronique/Intro electronique',
+        '03 Electronique/Arduino',
+      ],
     },
   ],
    
