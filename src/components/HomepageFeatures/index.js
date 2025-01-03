@@ -11,6 +11,7 @@ const FeatureList = [
         Apprendre à protéger ses données.
       </>
     ),
+    link: 'docs/01 Cybersécurité/Intro Cybersécurité', // Lien vers la page associée
   },
   {
     title: 'Informatique et réseau',
@@ -20,6 +21,7 @@ const FeatureList = [
         L'informatique et le réseau, voyons les bases
       </>
     ),
+    link: 'docs/02 informatique et réseau/Intro Informatique et réseau',
   },
   {
     title: 'Electronique',
@@ -29,17 +31,22 @@ const FeatureList = [
         Electronique, reprenons le controle
       </>
     ),
+    link: 'docs/03 Electronique/Intro electronique',
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, title, description, link}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <a href={link}>
+          <Svg className={styles.featureSvg} role="img" />
+        </a>
       </div>
       <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
+        <Heading as="h3">
+          <a href={link}>{title}</a>
+        </Heading>
         <p>{description}</p>
       </div>
     </div>

@@ -22,21 +22,19 @@ function HomepageHeader() {
             to="/docs/01 Cybersécurité/Intro Cybersécurité">
             Cybersécurité
           </Link>
-        </div>
-        <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/02 informatique et réseau/Intro Informatique et réseau">
             Informatique et réseau
           </Link>
-        </div>
-        <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/03 Electronique/Intro electronique">
             Electronique
           </Link>
+
         </div>
+        
         
       </div>
     </header>
