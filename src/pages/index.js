@@ -17,21 +17,7 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/01 Cybersécurité/Intro Cybersécurité">
-            Cybersécurité
-          </Link>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/02 informatique et réseau/Intro Informatique et réseau">
-            Informatique et réseau
-          </Link>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/03 Electronique/Intro electronique">
-            Electronique
-          </Link>
+         
 
         </div>
         
