@@ -24,7 +24,9 @@ const sidebars = {
     {
       type: 'category',
       label: 'Cybersécurité',
-      items: ['01 Cybersécurité/Intro Cybersécurité'],
+      items: ['01 Cybersécurité/Intro Cybersécurité',
+        '01 Cybersécurité/Bases_de_la_cybersecurité'
+      ],
     },
   ],
 
