@@ -25,7 +25,7 @@ Le courant électrique est un flux d'électrons se déplaçant dans un conducteu
 
 La loi d'Ohm relie ces trois grandeurs :
 
-:::warning
+:::info
 U = R × I
 :::
 
@@ -35,7 +35,15 @@ Cette loi fondamentale permet de calculer la tension, la résistance ou l'intens
 
 *   **Résistances :** Composants qui opposent une résistance au passage du courant. Elles sont utilisées pour limiter l'intensité du courant ou pour créer des divisions de tension.
 
-
+   
+*   **Condensateurs :** Composants qui stockent l'énergie électrique sous forme de champ électrique. Ils sont utilisés pour le filtrage, le stockage d'énergie temporaire et le couplage de signaux.
+    
+*   **Inductances (Bobines) :** Composants qui stockent l'énergie électrique sous forme de champ magnétique. Elles sont utilisées pour le filtrage, le stockage d'énergie et la création de circuits oscillants.
+    
+*   **Diodes :** Composants qui ne laissent passer le courant que dans un seul sens. Elles sont utilisées pour la rectification, la protection des circuits et la commutation.
+   
+*   **Transistors :** Composants actifs qui permettent de contrôler le courant électrique. Ils sont utilisés comme interrupteurs ou amplificateurs, et sont à la base des circuits intégrés (microprocesseurs, mémoires, etc.).
+    
 
 ### Les circuits électriques
 
