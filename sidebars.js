@@ -34,7 +34,9 @@ const sidebars = {
     {
       type: 'category',
       label: 'Informatique et réseau',
-      items: ['02 informatique et réseau/Intro Informatique et réseau'],
+      items: ['02 informatique et réseau/Intro Informatique et réseau',
+        '02 informatique et réseau/invite commande windows'
+      ],
     },
   ],
   electroniquebar: [
